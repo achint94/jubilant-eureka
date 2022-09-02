@@ -1,0 +1,19 @@
+{
+  "name": "jubilant-eureka",
+  "version": "1.0.0",
+  "description": "IFT598 Middleware Programming Assignment-2: Introduction to Backend Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achint94/jubilant-eureka.git"
+  },
+  "author": "Achint Bhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achint94/jubilant-eureka/issues"
+  },
+  "homepage": "https://github.com/achint94/jubilant-eureka#readme"
+}
