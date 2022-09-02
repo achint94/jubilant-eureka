@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Loan Amount Calculator</title>
+  <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+</head>
+
+<body>
+  <h1>Loan Amount Calculator </h1>
+  <table>
+    <tr>
+      <td><label>Principal:</label></td>
+      <td><input name="principal" type="number" value="1000"></td>
+    </tr>
+    <tr>
+      <td><label>Loan Term (years):</label></td>
+      <td><input type="number" name="t" value="1"></td>
+    </tr>
+    <tr>
+      <td><label>Rate of Interest:</label></td>
+      <td><input type="number" name="r" value="10.5"></td>
+    </tr>
+    <tr>
+      <td><label>Interest Type:</label></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><input type="radio" name="interest" value="simple" checked>
+        <label>Simple Interest</label>
+      </td>
+      <td><input type="radio" name="interest" value="compound">
+        <label>Compound Interest</label>
+      </td>
+    </tr>
+    <tr>
+      <td><label id="amount">Click on calculate to get Loan Amount!</label></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Calculate" onClick="getAmount()"></td>
+    </tr>
+  </table>
+  <script type="text/javascript">
+    const amount = document.getElementById("amount")
+    function getAmount() {
+      amount.innerHTML = "Never gonna give you up!"
+    }
+
+  </script>
+</body>
+
+</html>
